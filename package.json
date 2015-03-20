@@ -19,6 +19,31 @@
     "tape": "^2.13.1"
   },
   "scripts": {
-    "test": "node test.js"
-  }
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/andyet/signal-master/issues"
+  },
+  "homepage": "https://github.com/andyet/signal-master",
+  "_id": "signal-master@0.2.2",
+  "_shasum": "32bc96f86c953c67a8135f998258a2d9757bad35",
+  "_from": "signal-master@",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "fippo",
+    "email": "fippo@goodadvice.pages.de"
+  },
+  "maintainers": [
+    {
+      "name": "fippo",
+      "email": "fippo@goodadvice.pages.de"
+    }
+  ],
+  "dist": {
+    "shasum": "32bc96f86c953c67a8135f998258a2d9757bad35",
+    "tarball": "http://registry.npmjs.org/signal-master/-/signal-master-0.2.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/signal-master/-/signal-master-0.2.2.tgz"
 }

@@ -135,3 +135,4 @@ module.exports = function(app) {
     console.log(yetify.logo() + ' -- signal master is running at: http://localhost:' + port);
 
 };
+

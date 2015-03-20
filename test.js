@@ -14,17 +14,10 @@ output.on('end', function () {
 
 var io = require('socket.io-client');
 
-var socketURL;
-if (config.server.secure) {
-    socketURL = "https://localhost:" + config.server.port;
-} else {
-    socketURL = "http://localhost:" + config.server.port;
-}
-
+var socketURL = 'http://localhost:' + config.server.port;
 var socketOptions = {
     transports: ['websocket'],
-    'force new connection': true,
-    "secure": config.server.secure
+    'force new connection': true
 };
 
 test('it should not crash when sent an empty message', function (t) {
